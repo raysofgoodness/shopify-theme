@@ -142,7 +142,16 @@
 }
 
 .multicolumn-card__info .card-link {
-  color: #fff;
+  padding: 6px 20px;
+  border-radius: 30px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  color: #111;
 }
 
 .multicolumn-card__info h1, h2, h3, h4, h5, a, p, span .h0, .h1, .h2, .h3, .h4, .h5, .link {
