@@ -21,6 +21,14 @@
   }
 }
 
+.multicolumn-card__image-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
 .multicolumn-card__image-wrapper--third-width {
   width: 33%;
 }
