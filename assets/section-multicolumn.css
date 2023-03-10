@@ -141,6 +141,10 @@
   z-index: 100;
 }
 
+.multicolumn-card__info .card-link {
+  color: #fff;
+}
+
 .multicolumn-card__info h1, h2, h3, h4, h5, a, p, span .h0, .h1, .h2, .h3, .h4, .h5, .link {
   color: #fff;
 }
