@@ -134,7 +134,10 @@
 }
 
 .multicolumn-card__info {
-  padding: 2.5rem;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .background-none .multicolumn-card__info {
