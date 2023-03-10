@@ -154,7 +154,7 @@
   color: #111;
 }
 
-.multicolumn-card__info h1, h2, h3, h4, h5, a, p, span .h0, .h1, .h2, .h3, .h4, .h5, .link {
+.multicolumn-card__info .card-info-title {
   color: #fff;
 }
 
