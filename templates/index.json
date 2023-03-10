@@ -55,6 +55,9 @@
         "template--18157608665366__569f08be-a88d-44c5-b515-141aa2282739-16784397970810b3f2-0",
         "template--18157608665366__569f08be-a88d-44c5-b515-141aa2282739-16784397970810b3f2-2"
       ],
+      "custom_css": [
+        ".page-width {max-width: 100%;}"
+      ],
       "settings": {
         "title": "Women’s Event Featured Styles",
         "heading_size": "h2",
