@@ -43,9 +43,10 @@
         "template--18157608665366__569f08be-a88d-44c5-b515-141aa2282739-16784397970810b3f2-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "image": "shopify:\/\/shop_images\/82306af2-1413-443d-a9eb-ce30835bf153.webp",
+            "title": "Jordan Women’s Event Collection",
+            "text": "",
+            "link_label": "Shop Women's Jordan",
             "link": ""
           }
         }
