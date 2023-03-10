@@ -1,0 +1,14 @@
+{
+  "page": {
+    "title": "FAQ",
+    "faq_section": [
+      {
+        "shipping_delivery": {
+          "title": "SHIPPING & DELIVERY",
+          "question": "Вопрос 1",
+          "answer": "Ответ на вопрос 1."
+        }
+      }
+    ]
+  }
+}
