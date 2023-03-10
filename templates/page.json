@@ -7,9 +7,33 @@
         "padding_top": 32,
         "padding_bottom": 28
       }
+    },
+    "1fc69d7a-1d9b-419b-9ddd-9c2008701f0e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18157609320726__1fc69d7a-1d9b-419b-9ddd-9c2008701f0e-1678464270ce5f8444-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>GET HELP <\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18157609320726__1fc69d7a-1d9b-419b-9ddd-9c2008701f0e-1678464270ce5f8444-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1fc69d7a-1d9b-419b-9ddd-9c2008701f0e"
   ]
 }
