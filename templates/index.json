@@ -49,6 +49,9 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        ".page-width {max-width: 100%;}"
+      ],
       "settings": {
         "title": "Popular Right Now",
         "heading_size": "h2",
