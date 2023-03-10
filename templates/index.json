@@ -34,6 +34,9 @@
         "template--18157608665366__332620d8-ddef-41b1-a93e-e47d146e4ffb-1678440807ca2a3926-1",
         "template--18157608665366__332620d8-ddef-41b1-a93e-e47d146e4ffb-1678440807ca2a3926-2"
       ],
+      "custom_css": [
+        ".page-width {max-width: 100%;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/08e27ea9-f66e-4b39-8749-976d2f5d7c53.webp",
         "image_overlay_opacity": 0,
