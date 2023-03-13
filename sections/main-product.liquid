@@ -2065,28 +2065,3 @@
   ]
 }
 {% endschema %}
-
-  
-  <div class="sticky-add-to-cart">
-    <div class="sticky-add-to-cart__image">
-      {% render 'product-media-gallery', variant_images: variant_images %}
-    </div>
-    <div class=sticky-add-to-cart__title>
-      <div class="sticky-add-to-cart__title-wrapper" {{ block.shopify_attributes }}>
-          <h3 class="h3">{{ product.title | escape }}</h3>
-      </div
-    </div>
-    <div class="sticky-add-to-cart__price">
-      {% case 'price' %}
-        {%- when 'price' -%}
-          <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-            {%- render 'price',
-                product: product,
-                use_variant: true,
-                show_badges: true,
-                price_class: 'price--large'
-            -%}
-          </div>
-      {% endcase %}
-    </div>
-  </div>
