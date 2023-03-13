@@ -16,11 +16,6 @@
             <div class="sticky-product__column column">
                 {% if product.price %}
                     <span class="product-price">{{ product.price | money }}</span>
-                {% else %}
-                    {% assign priceBlock = sections['sticky-section'].blocks.price %}
-                    {% if priceBlock %}
-                        <span class="product-price">{{ priceBlock.settings.template_price }}</span>
-                    {% endif %}
                 {% endif %}
             </div>
             <div class="sticky-product__column column">

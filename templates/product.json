@@ -75,15 +75,7 @@
       }
     },
     "sticky-section": {
-      "type": "sticky-section",
-      "blocks": {
-        "price": {
-          "type": "price",
-          "settings": {
-            "template_price": "Price on request"
-          }
-        }
-      }
+      "type": "sticky-section"
     }
   },
   "order": [
