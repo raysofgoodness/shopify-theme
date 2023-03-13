@@ -75,13 +75,9 @@
       }
     },
     "sticky-section": {
-<<<<<<< HEAD
-      "type": "sticky-section"
-=======
       "type": "sticky-section",
       "settings": {
       }
->>>>>>> 125b3cef2c386a80f3ef2d56356cdb07d3e4d38d
     }
   },
   "order": [
