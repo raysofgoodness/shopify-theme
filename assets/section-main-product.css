@@ -154,12 +154,18 @@
 }
 
 .sticky-product__btn {
-  padding: 1em 2em;
+  padding: 1em 1.5em;
   font-size: 1em;
   color: var(--gradient-base-background-1);
   background-color: var(--gradient-base-accent-1);
   text-align: center;
   border-radius: var(--buttons-radius-outset);
+}
+
+@media screen and (min-width: 990px) {
+  .sticky-product__btn {
+    padding: 1em 2em;
+  }
 }
 
 /* Dynamic checkout */
