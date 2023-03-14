@@ -15,7 +15,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p>GET HELP <\/p>",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         }
       },
@@ -28,12 +28,87 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
+        "padding_bottom": 12
+      }
+    },
+    "aa2b0ef5-f55c-433c-9077-aba5b17548ca": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18157609320726__aa2b0ef5-f55c-433c-9077-aba5b17548ca-167880860231775f04-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>QUICK ASSISTS<\/h1>",
+            "heading_size": "h2"
+          }
+        },
+        "91bbbe73-113e-44e6-a13a-7246ad391209": {
+          "type": "caption",
+          "settings": {
+            "caption": "Answers to our most frequently asked questions are just one click away.",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        }
+      },
+      "block_order": [
+        "template--18157609320726__aa2b0ef5-f55c-433c-9077-aba5b17548ca-167880860231775f04-0",
+        "91bbbe73-113e-44e6-a13a-7246ad391209"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "434336d2-ae04-4055-962f-777d80ec13cc": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--18157609320726__434336d2-ae04-4055-962f-777d80ec13cc-16788085076ecaa96b-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WHAT ARE NIKE'S SHIPPING OPTIONS?",
+            "icon": "none",
+            "row_content": "<p><a href=\"https:\/\/www.nike.com\/membership\">Nike Members<\/a> get free standard shipping (and discounted expedited shipping) on every order—just sign in during checkout and you’ll automatically get free shipping.<\/p><p><a href=\"https:\/\/www.nike.com\/register\">BECOME A NIKE MEMBER<\/a><a href=\"https:\/\/www.nike.com\/\">SHOP NIKE<\/a><\/p><p>During checkout, Nike Members and guests can choose their preferred shipping option—we’ll provide an estimated delivery date for every item in your bag based on your shipping selection, the delivery address, and where the item(s) ship from. We offer the following shipping options:<\/p><p><strong>No Rush<\/strong>*<\/p><ul><li>Free for signed-in Nike Members<\/li><li>$7 for guest orders<\/li><\/ul><p><strong>Standard<\/strong><\/p><ul><li>Free for signed-in Nike Members<\/li><li>$8 for guest orders<\/li><\/ul><p><em><strong>Please note, expedited and express shipping may not be available for your order.<\/strong><\/em><\/p><p><strong>Expedited<\/strong><\/p><ul><li>$10 for signed-in Nike Members<\/li><li>$20 for guest orders<\/li><\/ul><p><strong>Express<\/strong><\/p><ul><li>$20 for signed-in Nike Members<\/li><li>$30 for guest orders<\/li><\/ul><p><strong>Free Same-day Pickup<br\/><\/strong>Free for eligible orders. Learn more about getting <a href=\"https:\/\/www.nike.com\/help\/a\/store-pickup\">in-store or curbside pickup at a participating Nike store<\/a>.<\/p><h5>ADDITIONAL INFORMATION<\/h5><ul><li>We process and deliver orders Monday-Friday (excluding holidays). Saturday and\/or Sunday deliveries may be available for some orders.<\/li><li>We use a variety of shipping carriers to make sure we deliver your order as soon as possible.<\/li><li>If you order multiple items, you may get multiple deliveries. We’ll send you a shipping confirmation email for each shipment, so you’ll know exactly what to expect and when to expect it.<\/li><li>No Rush shipping is not available for select products, orders shipping to Hawaii or Alaska, or for SNKRS orders.<\/li><li>Nike By You and Converse Custom orders arrive in two to six weeks—standard and expedited shipping times do not apply.<\/li><li>Orders to APO and FPO addresses ship free via standard USPS Military Mail and arrive between 30-45 days.<\/li><li>We do not offer <a href=\"https:\/\/www.nike.com\/help\/a\/international-shipping\">international shipping<\/a> and are unable to ship to US territories, PO boxes, re-shippers, or package forwarding services.<\/li><\/ul><h2>FAQs<\/h2><p>*<strong>What is No Rush shipping?<br\/><\/strong>No Rush shipping means exactly that: no rush. We decided to take the benefits of ground-only shipping and make it available for anyone. Why? Because, on average, ground-only shipping is less carbon-intensive than air freight shipping. Plus, No Rush gives our teams a little extra time to prepare your order and get it out the door. We’ll still provide an estimated delivery date during checkout, so you’ll know when to expect your order. On rare occasions, there may be some operational overrides that cause your package to ship on a plane, but we’ll do our best to get your order shipped ground.<\/p><p><\/p><p><strong>Which carrier is delivering my order?<br\/><\/strong>When you <a href=\"https:\/\/www.nike.com\/help\/a\/order-tracking\">track your package(s)<\/a>, you can see which carrier is delivering your shipment. Please note, if you order multiple items, you may have multiple deliveries and multiple carriers.<\/p>",
+            "page": ""
+          }
+        },
+        "2065ca03-1cd0-492c-82dd-bb5e9fac4d06": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW DO I GET FREE SHIPPING ON NIKE ORDERS?",
+            "icon": "none",
+            "row_content": "<p><a href=\"https:\/\/www.nike.com\/membership\">Nike Members<\/a> get free <a href=\"https:\/\/www.nike.com\/help\/a\/shipping-delivery\">standard shipping<\/a> on every order. Every time.<\/p><p>If you're not already a Member, join Nike today for free. Sign in to your Member profile when you shop on Nike.com and we'll automatically apply free standard shipping at checkout on every order (no promo code required).<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18157609320726__434336d2-ae04-4055-962f-777d80ec13cc-16788085076ecaa96b-0",
+        "2065ca03-1cd0-492c-82dd-bb5e9fac4d06"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "SHIPPING & DELIVERY",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "1fc69d7a-1d9b-419b-9ddd-9c2008701f0e"
+    "1fc69d7a-1d9b-419b-9ddd-9c2008701f0e",
+    "aa2b0ef5-f55c-433c-9077-aba5b17548ca",
+    "434336d2-ae04-4055-962f-777d80ec13cc"
   ]
 }
