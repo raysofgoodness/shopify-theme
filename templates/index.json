@@ -8,7 +8,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/c060dfc0-b21a-4cf0-9353-4eb5ecfd3e3d.webp",
         "image_overlay_opacity": 10,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "left",
