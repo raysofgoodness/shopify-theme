@@ -119,16 +119,18 @@
   }
 }
 
-.sticky-product__column {
-  padding: 0 10px 10px 10px;
-}
-
 .sticky-product__column:first-child {
   justify-self: start;
 }
 
 .sticky-product__image {
-  height: 120px;
+  height: 140px;
+}
+
+@media screen and (min-width: 990px) {
+  .sticky-product__image {
+    height: 100px;
+  }
 }
 
 .sticky-product__image img {
@@ -164,13 +166,15 @@
   border-radius: var(--buttons-radius-outset);
   border: none;
   cursor: pointer;
+}
+
+.sticky-product__form-btn {
+  cursor: pointer;
   transition: all ease .3s;
 }
 
-
 @media (hover: hover) {
-  /* when hover is supported */
-  .sticky-product__btn:hover {
+  .sticky-product__form-btn:hover {
     transform: translateY(1%);
   }
 }
