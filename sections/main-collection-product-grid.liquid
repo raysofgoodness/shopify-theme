@@ -15,6 +15,19 @@
   <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" defer></script>
+<script>
+  var infiniteScroll = new Waypoint.Infinite({
+    element: document.getElementById('product-grid'),
+    onBeforePageLoad: function() {
+      document.querySelector('.loading-overlay').style.display = 'block';
+    },
+    onAfterPageLoad: function($items) {
+      document.querySelector('.loading-overlay').style.display = 'none';
+    }
+  });
+</script>
+
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
@@ -170,10 +183,6 @@
                 </li>
               {%- endfor -%}
             </ul>
-
-            {%- if paginate.pages > 1 -%}
-              {% render 'pagination', paginate: paginate, anchor: '' %}
-            {%- endif -%}
           </div>
         {%- endif -%}
       {%- endpaginate -%}
