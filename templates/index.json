@@ -2,47 +2,14 @@
   "sections": {
     "332620d8-ddef-41b1-a93e-e47d146e4ffb": {
       "type": "image-banner",
-      "blocks": {
-        "template--18157608665366__332620d8-ddef-41b1-a93e-e47d146e4ffb-1678440807ca2a3926-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "WELCOME TO THE WOMEN EVENTS",
-            "heading_size": "h1"
-          }
-        },
-        "template--18157608665366__332620d8-ddef-41b1-a93e-e47d146e4ffb-1678440807ca2a3926-1": {
-          "type": "text",
-          "settings": {
-            "text": "From 3.6 to 3.11, we've got Member-exclusive drops, stories, a special sale, and more. Shop the collection or check out the lineup.",
-            "text_style": "subtitle"
-          }
-        },
-        "template--18157608665366__332620d8-ddef-41b1-a93e-e47d146e4ffb-1678440807ca2a3926-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop",
-            "button_link_1": "https:\/\/www.nike.com\/w\/womens-event-b0vp7",
-            "button_style_secondary_1": false,
-            "button_label_2": "See the Lineup",
-            "button_link_2": "https:\/\/www.nike.com\/membership",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--18157608665366__332620d8-ddef-41b1-a93e-e47d146e4ffb-1678440807ca2a3926-0",
-        "template--18157608665366__332620d8-ddef-41b1-a93e-e47d146e4ffb-1678440807ca2a3926-1",
-        "template--18157608665366__332620d8-ddef-41b1-a93e-e47d146e4ffb-1678440807ca2a3926-2"
-      ],
       "custom_css": [
-        ".page-width {max-width: 100%;}",
-        ".banner__box {max-width: 70rem;}"
+
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/08e27ea9-f66e-4b39-8749-976d2f5d7c53.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "top-left",
+        "image": "shopify:\/\/shop_images\/c060dfc0-b21a-4cf0-9353-4eb5ecfd3e3d.webp",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "left",
         "color_scheme": "background-1",
