@@ -86,16 +86,18 @@
   padding: 1em;
   position: fixed;
   left: 0;
-  bottom: -100%;
+  bottom: 0;
   width: 100%;
   background-color: var(--gradient-base-background-1);
   box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
-  transition: all ease-in .3s;
+  transform: translateY(-100%);
+  transition: all ease-in .4s;
   z-index: 100;
 }
 
 .sticky-product--active {
-  bottom: 0;
+  transform: translateY(0);
+  transition: all ease-in .4s;
 }
 
 .sticky-product__container {
