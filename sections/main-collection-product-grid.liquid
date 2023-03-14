@@ -15,17 +15,6 @@
   <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
-<script>
-  var infiniteScroll = new Waypoint.Infinite({
-    element: document.getElementById('product-grid'),
-    onBeforePageLoad: function() {
-      document.querySelector('.loading-overlay').style.display = 'block';
-    },
-    onAfterPageLoad: function($items) {
-      document.querySelector('.loading-overlay').style.display = 'none';
-    }
-  });
-</script>
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -136,39 +125,40 @@
     {%- endif -%}
 
     <div class="product-grid-container" id="ProductGridContainer">
-      {%- paginate collection.products by section.settings.products_per_page -%}
-        {%- if collection.products.size == 0 -%}
-          <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
-            <div class="loading-overlay gradient"></div>
-            <div class="title-wrapper center">
-              <h2 class="title title--primary">
-                {{ 'sections.collection_template.empty' | t -}}
-                <br>
+      {% section 'collection-infinite-scroll' %}
+      {% comment %}{%- paginate collection.products by section.settings.products_per_page -%}{% endcomment %}
+        {% comment %}{%- if collection.products.size == 0 -%}{% endcomment %}
+          {% comment %}<div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">{% endcomment %}
+            {% comment %}<div class="loading-overlay gradient"></div>{% endcomment %}
+            {% comment %}<div class="title-wrapper center">{% endcomment %}
+              {% comment %}<h2 class="title title--primary">{% endcomment %}
+                {% comment %}{{ 'sections.collection_template.empty' | t -}}{% endcomment %}
+                {% comment %}<br>{% endcomment %}
                 {{
                   'sections.collection_template.use_fewer_filters_html'
                   | t: link: collection.url, class: 'underlined-link link'
                 }}
-              </h2>
-            </div>
-          </div>
-        {%- else -%}
-          <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
-            <div class="loading-overlay gradient"></div>
-
-            <ul
-              id="product-grid"
-              data-id="{{ section.id }}"
-              class="
-                grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
-                grid--{{ section.settings.columns_desktop }}-col-desktop
-              "
-            >
-              {%- for product in collection.products -%}
-                {% assign lazy_load = false %}
-                {%- if forloop.index > 2 -%}
-                  {%- assign lazy_load = true -%}
-                {%- endif -%}
-                <li class="grid__item">
+              {% comment %}</h2>{% endcomment %}
+            {% comment %}</div>{% endcomment %}
+          {% comment %}</div>{% endcomment %}
+        {% comment %}{%- else -%}{% endcomment %}
+          {% comment %}<div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">{% endcomment %}
+            {% comment %}<div class="loading-overlay gradient"></div>{% endcomment %}
+{% comment %}{% endcomment %}
+            {% comment %}<ul{% endcomment %}
+              {% comment %}id="product-grid"{% endcomment %}
+              {% comment %}data-id="{{ section.id }}"{% endcomment %}
+              {% comment %}class="{% endcomment %}
+                {% comment %}grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down{% endcomment %}
+                {% comment %}grid--{{ section.settings.columns_desktop }}-col-desktop{% endcomment %}
+              {% comment %}"{% endcomment %}
+            {% comment %}>{% endcomment %}
+              {% comment %}{%- for product in collection.products -%}{% endcomment %}
+                {% comment %}{% assign lazy_load = false %}{% endcomment %}
+                {% comment %}{%- if forloop.index > 2 -%}{% endcomment %}
+                  {% comment %}{%- assign lazy_load = true -%}{% endcomment %}
+                {% comment %}{%- endif -%}{% endcomment %}
+                {% comment %}<li class="grid__item">{% endcomment %}
                   {% render 'card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
@@ -179,12 +169,12 @@
                     show_quick_add: section.settings.enable_quick_add,
                     section_id: section.id
                   %}
-                </li>
-              {%- endfor -%}
-            </ul>
-          </div>
-        {%- endif -%}
-      {%- endpaginate -%}
+                {% comment %}</li>{% endcomment %}
+              {% comment %}{%- endfor -%}{% endcomment %}
+            {% comment %}</ul>{% endcomment %}
+          {% comment %}</div>{% endcomment %}
+        {% comment %}{%- endif -%}{% endcomment %}
+      {% comment %}{%- endpaginate -%}{% endcomment %}
     </div>
   </div>
 </div>
