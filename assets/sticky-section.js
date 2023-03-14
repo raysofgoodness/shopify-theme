@@ -20,4 +20,4 @@ class StickySection extends HTMLElement {
     }
 }
 
-customElements.define('.sticky-product', StickySection);
+customElements.define('sticky-product', StickySection);
