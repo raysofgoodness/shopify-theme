@@ -162,6 +162,17 @@
   background-color: var(--gradient-base-accent-1);
   text-align: center;
   border-radius: var(--buttons-radius-outset);
+  border: none;
+  cursor: pointer;
+  transition: all ease .3s;
+}
+
+
+@media (hover: hover) {
+  /* when hover is supported */
+  .sticky-product__btn:hover {
+    transform: translateY(1%);
+  }
 }
 
 @media screen and (min-width: 990px) {
