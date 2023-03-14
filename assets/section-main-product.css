@@ -175,7 +175,7 @@
 
 @media (hover: hover) {
   .sticky-product__form-btn:hover {
-    transform: translateY(1%);
+    transform: translateY(30%);
   }
 }
 
