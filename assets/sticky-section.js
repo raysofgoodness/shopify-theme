@@ -1,7 +1,7 @@
 class StickySection extends HTMLElement {
     constructor() {
         super();
-        this.section = document.querySelector('[data-sticky]');
+        this.section = document.querySelector('.sticky-product');
         this.lastScrollPosition = window.scrollY || document.documentElement.scrollTop;
         window.addEventListener('scroll', this.handleScroll.bind(this));
     }
@@ -20,4 +20,4 @@ class StickySection extends HTMLElement {
     }
 }
 
-customElements.define('[data-sticky]', StickySection);
+customElements.define('.sticky-product', StickySection);
