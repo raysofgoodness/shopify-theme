@@ -55,8 +55,8 @@
         "91bbbe73-113e-44e6-a13a-7246ad391209"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 20,
