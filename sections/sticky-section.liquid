@@ -14,13 +14,13 @@
             </div>
             <div class="sticky-product__column column">
                 {% if product.price %}
-                    <span class="product-price">{{ product.price | money }}</span>
+                    <span class="product-price price-item price-item--regular">{{ product.price | money }}</span>
                 {% endif %}
             </div>
             <div class="sticky-product__column column">
                 <form action="/cart/add" method="post">
                     <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-                    <button type="submit" class="btn">Add to Cart</button>
+                    <button type="submit" class="btn shopify-payment-button__button shopify-payment-button__button--unbranded">Add to Cart</button>
                 </form>
             </div>
         </div>

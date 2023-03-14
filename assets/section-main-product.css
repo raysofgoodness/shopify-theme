@@ -111,6 +111,16 @@
 .sticky-product__column {
   padding: 10px;
 }
+
+.sticky-product__image img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+
+.sticky-product__title {
+  margin: 0;
+}
 /* Dynamic checkout */
 
 .shopify-payment-button__button {
