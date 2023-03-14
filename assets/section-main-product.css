@@ -90,7 +90,7 @@
   width: 100%;
   background-color: var(--gradient-base-background-1);
   box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
-  transform: translateY(-100%);
+  transform: translateY(100%);
   transition: all ease-in .4s;
   z-index: 100;
 }
