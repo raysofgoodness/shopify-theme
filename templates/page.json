@@ -89,6 +89,9 @@
         "template--18157609320726__434336d2-ae04-4055-962f-777d80ec13cc-16788085076ecaa96b-0",
         "2065ca03-1cd0-492c-82dd-bb5e9fac4d06"
       ],
+      "custom_css": [
+        ".collapsible-content__heading {margin-bottom: 1rem;}"
+      ],
       "settings": {
         "caption": "",
         "heading": "SHIPPING & DELIVERY",
@@ -139,6 +142,9 @@
         "6083935b-f3e0-4028-9e6e-8c1746081d96",
         "563dded3-1fd9-4f78-bfa3-d0294478b9f4",
         "6ed4053f-17f2-4e14-becd-bec77183ad02"
+      ],
+      "custom_css": [
+        ".collapsible-content__heading {margin-bottom: 1rem;}"
       ],
       "settings": {
         "caption": "",
