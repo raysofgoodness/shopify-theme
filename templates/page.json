@@ -103,12 +103,64 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "f03579ef-3878-40c7-acb1-b37805783edf": {
+      "type": "collapsible-content",
+      "blocks": {
+        "6083935b-f3e0-4028-9e6e-8c1746081d96": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WHERE IS MY NIKE ORDER?",
+            "icon": "none",
+            "row_content": "<p>The most accurate and current information for your Nike order is always available at <a href=\"https:\/\/www.nike.com\/orders\" target=\"_blank\">nike.com\/orders<\/a>. Nike Members can also sign in to access their order information.<\/p><p><a href=\"https:\/\/www.nike.com\/orders\" target=\"_blank\">CHECK YOUR ORDER STATUS<\/a><a href=\"https:\/\/www.nike.com\/orders\/?showSignin=true\">MEMBER SIGN IN<\/a><\/p><p>After your order ships, you can track your shipment(s) and see which carrier is delivering your package(s) anytime at <a href=\"https:\/\/www.nike.com\/orders\">nike.com\/orders<\/a>. And please note, if you order multiple items, you may get multiple deliveries. For each shipment, we’ll send you a shipping confirmation email with the carrier tracking number and a link to track the shipment.<\/p><p>Nike Members can also check their order status anytime in the Nike App. Simply tap the Profile tab, then \"Orders.\" Tap on the specific order to check the status. And if your order has shipped, you can tap \"Track Shipment\" to track your package(s).<\/p><h2>FAQs<\/h2><h5>CARRIER AND DELIVERY INFORMATION<\/h5><p><strong>Who should I contact about order tracking and delivery?<br\/><\/strong>After your order leaves our facility, we won’t have any additional information beyond what you see when you track your package(s). If you have delivery-related questions during shipment or want more specific tracking information, please contact the carrier directly:<\/p><ul><li><a href=\"https:\/\/www.fedex.com\/en-us\/tracking\/guide-for-tracking-managing-deliveries.html\" target=\"_blank\">FedEx<\/a><\/li><li><a href=\"https:\/\/www.ups.com\/us\/en\/support\/contact-us.page\" target=\"_blank\">UPS<\/a><\/li><li><a href=\"https:\/\/lasership.com\/delivery-support\/\" target=\"_blank\">LaserShip<\/a><\/li><li><a href=\"https:\/\/www.ontrac.com\/contactus.asp\" target=\"_blank\">OnTrac<\/a><\/li><li><a href=\"https:\/\/www.lso.com\/contact-us\" target=\"_blank\">LSO<\/a><\/li><li><a href=\"https:\/\/www.usps.com\/help\/contact-us.htm\" target=\"_blank\">USPS<\/a><\/li><li><a href=\"https:\/\/cdldelivers.com\/contact\" target=\"_blank\">CDL<\/a><\/li><\/ul><p><strong>Where do I find my estimated delivery date?<br\/><\/strong>You’ll see an estimated order delivery date during checkout, on your order status page, and when you track your order. Because this date is an estimate, your order could be delivered shortly before or shortly after this date.<\/p><p><strong>Can I change the delivery address on my order?<br\/><\/strong>No, our team moves quickly to process and ship your order—we cannot change your order or your delivery address. However, after your order ships, you can contact the carrier directly to see if they can update the address or redirect the package to a pickup facility.<\/p><p><strong>Where do I find my tracking number?<br\/><\/strong>When your order ships, we’ll send you an email with the carrier tracking number (note: this is a separate email from your original order confirmation email). You can also access your tracking number at <a href=\"https:\/\/www.nike.com\/orders\">nike.com\/orders<\/a>. From there, click or tap \"View or Manage,\" then \"Track Shipment.\"<\/p><h5>TRACKING AND DELIVERY TROUBLESHOOTING<\/h5><p><strong>Why hasn’t my tracking information updated?<br\/><\/strong>Don’t worry if your tracking information doesn’t immediately populate—the carrier sometimes takes up to 48 hours to activate the tracking information. Please check back, the tracking information should update soon.<\/p><p><strong>Why is my order delayed?<br\/><\/strong>We do our absolute best to deliver your order on time, but enhanced safety practices and high order volume sometimes slow us down. After an order ships, your package could be delayed by delivery issues like severe weather, an incomplete delivery address, or regional service delays.<\/p><p><strong>Why was only part of my order delivered?<br\/><\/strong>If you order multiple items, you may get multiple deliveries. We’ll send you a shipping confirmation email for each shipment, so you’ll know exactly what to expect and when to expect it.<\/p><p><strong>What should I do if my order is marked as delivered but I didn’t receive it?<br\/><\/strong>For the fastest service, please contact the carrier directly. Sometimes carrier tracking information updates prematurely, and your package could be delivered within 24 hours. If it’s still before your estimated delivery date, please hold tight, your package is on the way. If it’s after your estimated delivery date, please contact the carrier for more information.<\/p>",
+            "page": ""
+          }
+        },
+        "563dded3-1fd9-4f78-bfa3-d0294478b9f4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "CAN I CANCEL OR CHANGE MY NIKE ORDER?",
+            "icon": "none",
+            "row_content": "<p>You can't make changes, but you can cancel an order within 30 minutes of placing it.<\/p><p>To cancel an order, first go to your <a href=\"https:\/\/www.nike.com\/orders\/details\/\" target=\"_blank\">orders page<\/a>. If you’re not signed in, you’ll need to enter your order number from your order confirmation email, along with your email address. Next, open the order you want to cancel, then tap or click the “Cancel” button and follow the prompts.<\/p><p>If you don’t see the cancel button, your order is no longer eligible to be canceled. But don’t worry—you can <a href=\"https:\/\/www.nike.com\/help\/a\/how-to-return\">return the items<\/a> for any reason within 60 days.<\/p><p><a href=\"https:\/\/www.nike.com\/orders\" target=\"_blank\">VISIT ORDERS PAGE<\/a><\/p><p>We can also help you cancel an order if it was placed within 30 minutes, just <a href=\"https:\/\/www.nike.com\/help\/#contact\">give us a call<\/a>. Please note, we cannot change your shipping address (except for Nike By You orders) or your shipping service for an existing order.<\/p><p>If you need to change an item’s color, size, or quantity, or your shipping selection or delivery address—simply cancel your original order and place a new one.<\/p><h2>FAQs<\/h2><p><strong>How do refunds work for canceled orders?<br\/><\/strong>We don’t charge your payment until the order ships. If you cancel an order, you won’t be charged, so you won’t need to be refunded. You might see an initial authorization for the order total—this is a temporary hold on funds that will automatically drop off within a few days.<\/p>",
+            "page": ""
+          }
+        },
+        "6ed4053f-17f2-4e14-becd-bec77183ad02": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW DO I FIND THE RIGHT SIZE AND FIT?",
+            "icon": "none",
+            "row_content": "<p>When it comes to performance, fit matters. We’ll help you find the right shoes and gear in the right size so you can perform your best.<\/p><p>Not sure what Nike or Converse size you wear? Our size charts can help you determine the best fit for all of our shoes, clothing, and gear. You can navigate to our size charts below, including size charts for men, women, kids, unisex items, and accessories. You can also find links to the appropriate size chart on all of our product pages.<\/p><p><a href=\"https:\/\/www.nike.com\/size-fit\/mens-footwear\" target=\"_blank\">NIKE SIZE CHARTS<\/a><a href=\"https:\/\/www.nike.com\/size-fit\/converse-unisex-chuck\" target=\"_blank\">CONVERSE SIZE CHARTS<\/a><\/p><p>And remember, if the fit isn’t quite right, <a href=\"https:\/\/www.nike.com\/help\/a\/how-to-return\" target=\"_blank\">returns are easy<\/a> for <a href=\"https:\/\/www.nike.com\/membership\" target=\"_blank\">Nike Members<\/a>.<\/p><p><a href=\"https:\/\/www.nike.com\/\" target=\"_blank\">SHOP NIKE<\/a><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "6083935b-f3e0-4028-9e6e-8c1746081d96",
+        "563dded3-1fd9-4f78-bfa3-d0294478b9f4",
+        "6ed4053f-17f2-4e14-becd-bec77183ad02"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "ORDERS",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "1fc69d7a-1d9b-419b-9ddd-9c2008701f0e",
     "aa2b0ef5-f55c-433c-9077-aba5b17548ca",
-    "434336d2-ae04-4055-962f-777d80ec13cc"
+    "434336d2-ae04-4055-962f-777d80ec13cc",
+    "f03579ef-3878-40c7-acb1-b37805783edf"
   ]
 }
