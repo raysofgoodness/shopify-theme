@@ -1,5 +1,7 @@
+<script src="{{ 'sticky-section.js' | asset_url }}" defer="defer"></script>
+
 {% if product %}
-    <section class="sticky-product">
+    <section class="sticky-product" data-sticky>
         <div class="container sticky-product__container page-width">
             <div class="sticky-product__column column">
                 {% if product.images.size > 0 %}
