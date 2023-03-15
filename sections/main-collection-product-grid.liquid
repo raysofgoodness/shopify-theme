@@ -171,12 +171,30 @@
                 </li>
               {%- endfor -%}
             </ul>
+
+            <div id="Huratips-Pagination">
+              {% if paginate.next %}
+                <a href="{{ paginate.next.url }}">Loading More</a>
+              {% endif %}
+            </div>
+
           </div>
         {%- endif -%}
       {%- endpaginate -%}
     </div>
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var endlessScroll = new Ajaxinate({
+      container: '#product-grid',
+      pagination: '#Huratips-Pagination',
+      loadingText: '<img src="https://cdn.shopify.com/s/files/1/0724/4179/0742/files/loading.gif?v=1678890321">'
+    });
+  });
+</script>
+
 
 {% schema %}
 {
