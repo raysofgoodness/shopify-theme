@@ -2,14 +2,117 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 32,
-        "padding_bottom": 28
+        "padding_bottom": 8
+      }
+    },
+    "83a09f44-beb8-4f5f-97ba-7fb0b0e0ed71": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--18235760836886__83a09f44-beb8-4f5f-97ba-7fb0b0e0ed71-1678888380102076b9-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WHERE IS MY NIKE ORDER?",
+            "icon": "none",
+            "row_content": "<p>The most accurate and current information for your Nike order is always available at <a href=\"https:\/\/www.nike.com\/orders\" target=\"_blank\">nike.com\/orders<\/a>. Nike Members can also sign in to access their order information.<\/p><p>After your order ships, you can track your shipment(s) and see which carrier is delivering your package(s) anytime at <a href=\"https:\/\/www.nike.com\/orders\">nike.com\/orders<\/a>. And please note, if you order multiple items, you may get multiple deliveries. For each shipment, we’ll send you a shipping confirmation email with the carrier tracking number and a link to track the shipment.<\/p><p>Nike Members can also check their order status anytime in the Nike App. Simply tap the Profile tab, then \"Orders.\" Tap on the specific order to check the status. And if your order has shipped, you can tap \"Track Shipment\" to track your package(s).<\/p><h2>FAQs<\/h2><h5>CARRIER AND DELIVERY INFORMATION<\/h5><p><strong>Who should I contact about order tracking and delivery?<br\/><\/strong>After your order leaves our facility, we won’t have any additional information beyond what you see when you track your package(s). If you have delivery-related questions during shipment or want more specific tracking information, please contact the carrier directly:<\/p><ul><li><a href=\"https:\/\/www.fedex.com\/en-us\/tracking\/guide-for-tracking-managing-deliveries.html\" target=\"_blank\">FedEx<\/a><\/li><li><a href=\"https:\/\/www.ups.com\/us\/en\/support\/contact-us.page\" target=\"_blank\">UPS<\/a><\/li><li><a href=\"https:\/\/lasership.com\/delivery-support\/\" target=\"_blank\">LaserShip<\/a><\/li><li><a href=\"https:\/\/www.ontrac.com\/contactus.asp\" target=\"_blank\">OnTrac<\/a><\/li><li><a href=\"https:\/\/www.lso.com\/contact-us\" target=\"_blank\">LSO<\/a><\/li><li><a href=\"https:\/\/www.usps.com\/help\/contact-us.htm\" target=\"_blank\">USPS<\/a><\/li><li><a href=\"https:\/\/cdldelivers.com\/contact\" target=\"_blank\">CDL<\/a><\/li><\/ul><p><strong>Where do I find my estimated delivery date?<br\/><\/strong>You’ll see an estimated order delivery date during checkout, on your order status page, and when you track your order. Because this date is an estimate, your order could be delivered shortly before or shortly after this date.<\/p><p><strong>Can I change the delivery address on my order?<br\/><\/strong>No, our team moves quickly to process and ship your order—we cannot change your order or your delivery address. However, after your order ships, you can contact the carrier directly to see if they can update the address or redirect the package to a pickup facility.<\/p><p><strong>Where do I find my tracking number?<br\/><\/strong>When your order ships, we’ll send you an email with the carrier tracking number (note: this is a separate email from your original order confirmation email). You can also access your tracking number at <a href=\"https:\/\/www.nike.com\/orders\">nike.com\/orders<\/a>. From there, click or tap \"View or Manage,\" then \"Track Shipment.\"<\/p><h5>TRACKING AND DELIVERY TROUBLESHOOTING<\/h5><p><strong>Why hasn’t my tracking information updated?<br\/><\/strong>Don’t worry if your tracking information doesn’t immediately populate—the carrier sometimes takes up to 48 hours to activate the tracking information. Please check back, the tracking information should update soon.<\/p><p><strong>Why is my order delayed?<br\/><\/strong>We do our absolute best to deliver your order on time, but enhanced safety practices and high order volume sometimes slow us down. After an order ships, your package could be delayed by delivery issues like severe weather, an incomplete delivery address, or regional service delays.<\/p><p><strong>Why was only part of my order delivered?<br\/><\/strong>If you order multiple items, you may get multiple deliveries. We’ll send you a shipping confirmation email for each shipment, so you’ll know exactly what to expect and when to expect it.<\/p><p><strong>What should I do if my order is marked as delivered but I didn’t receive it?<br\/><\/strong>For the fastest service, please contact the carrier directly. Sometimes carrier tracking information updates prematurely, and your package could be delivered within 24 hours. If it’s still before your estimated delivery date, please hold tight, your package is on the way. If it’s after your estimated delivery date, please contact the carrier for more information.<\/p>",
+            "page": ""
+          }
+        },
+        "fb1a8fd1-d902-4a1f-9c6d-1a5f9e4e63b9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "CAN I CANCEL OR CHANGE MY NIKE ORDER?",
+            "icon": "none",
+            "row_content": "<p>You can't make changes, but you can cancel an order within 30 minutes of placing it.<\/p><p>To cancel an order, first go to your <a href=\"https:\/\/www.nike.com\/orders\/details\/\" target=\"_blank\">orders page<\/a>. If you’re not signed in, you’ll need to enter your order number from your order confirmation email, along with your email address. Next, open the order you want to cancel, then tap or click the “Cancel” button and follow the prompts.<\/p><p>If you don’t see the cancel button, your order is no longer eligible to be canceled. But don’t worry—you can <a href=\"https:\/\/www.nike.com\/help\/a\/how-to-return\">return the items<\/a> for any reason within 60 days.<\/p><p>We can also help you cancel an order if it was placed within 30 minutes, just <a href=\"https:\/\/www.nike.com\/help\/#contact\">give us a call<\/a>. Please note, we cannot change your shipping address (except for Nike By You orders) or your shipping service for an existing order.<\/p><p>If you need to change an item’s color, size, or quantity, or your shipping selection or delivery address—simply cancel your original order and place a new one.<\/p><h2>FAQs<\/h2><p><strong>How do refunds work for canceled orders?<br\/><\/strong>We don’t charge your payment until the order ships. If you cancel an order, you won’t be charged, so you won’t need to be refunded. You might see an initial authorization for the order total—this is a temporary hold on funds that will automatically drop off within a few days.<\/p>",
+            "page": ""
+          }
+        },
+        "19da6c68-895b-4fe7-87a2-f70f7538e740": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW DO I FIND THE RIGHT SIZE AND FIT?",
+            "icon": "none",
+            "row_content": "<p>When it comes to performance, fit matters. We’ll help you find the right shoes and gear in the right size so you can perform your best.<\/p><p>Not sure what Nike or Converse size you wear? Our size charts can help you determine the best fit for all of our shoes, clothing, and gear. You can navigate to our size charts below, including size charts for men, women, kids, unisex items, and accessories. You can also find links to the appropriate size chart on all of our product pages.<\/p><p>And remember, if the fit isn’t quite right,<a href=\"https:\/\/www.nike.com\/help\/a\/how-to-return\" target=\"_blank\">returns are easy<\/a>for<a href=\"https:\/\/www.nike.com\/membership\" target=\"_blank\">Nike Members<\/a>.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18235760836886__83a09f44-beb8-4f5f-97ba-7fb0b0e0ed71-1678888380102076b9-0",
+        "fb1a8fd1-d902-4a1f-9c6d-1a5f9e4e63b9",
+        "19da6c68-895b-4fe7-87a2-f70f7538e740"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Orders",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "row",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "43a979da-ed26-4128-9ec9-e586d4f75910": {
+      "type": "collapsible-content",
+      "blocks": {
+        "3f40b961-cb81-4874-a3ee-e157aa0e9eb8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WHAT IS NIKE’S RETURN POLICY?",
+            "icon": "none",
+            "row_content": "<h5>TEMPORARY RETURN EXTENSION<\/h5><p><strong>All Nike purchases have an extended 60-day return policy (<\/strong><a href=\"https:\/\/www.nike.com\/help\/a\/return-exceptions\"><strong>some exceptions apply<\/strong><\/a><strong>).<\/strong><\/p><p>All purchases made on Nike.com, in any of the Nike apps, or at a Nike store have a 60-day return period. Go ahead and test out your Nike or Converse purchase to make sure it works for you.<\/p><p>You can return items (<a href=\"https:\/\/www.nike.com\/help\/a\/return-exceptions\" target=\"_blank\">some exceptions apply<\/a>) for any reason within those 60 days. That includes custom <a href=\"https:\/\/www.nike.com\/nike-by-you\" target=\"_blank\">Nike By You<\/a> sneakers. Even after 60 days, you can still return items if they’re unworn and unwashed. And remember, returns are always free for <a href=\"https:\/\/www.nike.com\/membership\" target=\"_blank\">Nike Members<\/a>.<\/p><p>So go ahead, shop with confidence, and enjoy your 60-day trial.<\/p><h2>FAQs<\/h2><p><strong>How do I return a Nike order?<br\/><\/strong>If you’re a Nike Member, <a href=\"https:\/\/www.nike.com\/orders\/details\/?showSignin=true\">sign in<\/a> before you start your free return from your orders page. If you’re not a Nike Member, you’ll need to <a href=\"https:\/\/www.nike.com\/orders\">access your order<\/a> with your order number and email address. You also can head to your <a href=\"https:\/\/www.nike.com\/retail\">nearest Nike store to make a return<\/a>. For additional details, check out <a href=\"https:\/\/www.nike.com\/help\/a\/how-to-return\">our return instructions<\/a>.<\/p><p><strong>How do I return a Nike store purchase?<br\/><\/strong>You can take the items you want to return to any Nike store.<\/p><p><strong>Do I need a receipt to return items at a Nike store?<br\/><\/strong>For orders placed on Nike.com or in any of the Nike apps, just have either your order barcode or order number ready. Nike Members can also provide the email address or phone number used to place the order.<\/p><p>For store purchases, the quickest and easiest way to return items is to provide the original store receipt. If you no longer have the receipt, here are your options:<\/p><ul><li>If you provided your Nike Membership email address or had your Nike Pass scanned during checkout, a Nike store athlete may be able to look up your order and provide a refund to your original form of payment.<\/li><li>If you did not provide your Nike Membership information, and the items you want to return are unworn and unwashed, you still may be able to return them for an in-store credit for the current price of the items. We also may be able to help you with an exchange.<\/li><\/ul><p>If you are returning items with a gift receipt, we’ll provide you in-store credit for the amount of the gift receipt. We also can help you exchange your gift.<\/p><p><strong>Can I return items I purchased at a Nike Clearance store?<\/strong><br\/>No, items purchased at a Nike Clearance store cannot be returned or exchanged unless they're defective or flawed.<\/p><p><strong>What about defective or flawed items?<br\/><\/strong>We stand behind all of our shoes and gear. If it’s been less than 60 days since your purchase, use one of the options above to return a defective or flawed item. If it’s been more than 60 days, please <a href=\"https:\/\/www.nike.com\/help\/#contact\">contact us<\/a> to return the item. See our <a href=\"https:\/\/www.nike.com\/help\/a\/shoe-warranty\">warranty information<\/a> for additional details.<\/p><h5>OTHER TERMS<\/h5><p>While shopping in store, you may have the option of shipping an item to a store to pick up. If you are unable to pick up the order within 30 days, we will return your order and issue a refund to your original form of payment.<\/p><p>We reserve the right to require and electronically capture consumer information from a valid state or government ID for all returns\/exchanges. We maintain a database of consumer return activity created solely for the purpose of authorizing returns and exchanges. We do not sell the information captured through this process. We also reserve the right to limit returns\/exchanges made with or without receipts for any reason.<\/p>",
+            "page": ""
+          }
+        },
+        "caa1dc0c-1f8a-47a9-8ad5-597214f19d31": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOW DO I RETURN MY NIKE ORDER?",
+            "icon": "none",
+            "row_content": "<h5>TEMPORARY RETURN EXTENSION<\/h5><p><strong>All Nike purchases have an extended 60-day return policy (<\/strong><a href=\"https:\/\/www.nike.com\/help\/a\/return-exceptions\"><strong>some exceptions apply<\/strong><\/a><strong>).<\/strong><\/p><p>It might take a minute, or two, to know if your Nike or Converse purchase is meant for you. If something isn’t working for you, return it for any reason within <a href=\"https:\/\/www.nike.com\/help\/a\/returns-policy\">60 days<\/a>.*<\/p><h5>RETURN AT A STORE<\/h5><p>Both Nike Members and guests can return their Nike order at a nearby Nike store for free. Just <a href=\"https:\/\/www.nike.com\/retail\">find a nearby store<\/a>, bring us your item(s), and have either your order barcode or order number ready. You can find your order barcode at <a href=\"https:\/\/www.nike.com\/orders\">nike.com\/orders<\/a> and in the Nike App.<\/p><h5>SHIP YOUR RETURN – NIKE MEMBERS<\/h5><p>If you prefer to send your items back to us, shipping is free for Nike Members. Simply follow these steps:<\/p><p>1. <a href=\"https:\/\/www.nike.com\/orders\/?showSignin=true\"><strong>Sign in<\/strong><\/a><strong> to your Member profile<\/strong> and go to your order history. Select \"View or Manage\" for the order you’re returning, then select \"Start Return.\"<\/p><p>2. <strong>Choose the items to return<\/strong>, provide the return reason from the dropdown menu, and click \"Continue.\"<\/p><p>3. <strong>Select how you want to ship your return<\/strong>:<\/p><ul><li><strong>UPS Dropoff<\/strong>:<\/li><li><strong>Schedule UPS Pickup: <\/strong>You can schedule a pickup with UPS and have a driver take your return. UPS pickup fees typically start at $6, and you’ll need to print a prepaid label.<\/li><\/ul><p>4. <strong>Submit your return and send your items back. <\/strong>No matter the shipping method, you’ll need to package your items (using the original packaging, if possible).<\/p><ul><li><strong>UPS return code<\/strong>: Take your packaged return to <a href=\"https:\/\/www.ups.com\/dropoff?loc=en_US\" target=\"_blank\">The UPS Store<\/a> and show your return code—you can find it on your <a href=\"https:\/\/www.nike.com\/orders\/details\/\">order details page<\/a>. Remember, you can only use the UPS return code at The UPS Store locations.<\/li><li><strong>Printed label<\/strong>: Securely attach the label you printed to your return, making sure to cover any previous shipping labels. You can then drop it off at <a href=\"https:\/\/www.ups.com\/dropoff?loc=en_US\" target=\"_blank\">any eligible UPS location<\/a>. Eligible locations include The UPS Store and UPS Access Points.<\/li><li>If you scheduled a pickup, pass your return to the UPS driver when they arrive.<\/li><\/ul><h5>SHIP YOUR RETURN – GUESTS<\/h5><p>You can choose your preferred carrier to send your items back. Be aware that you’ll need to cover any shipping costs. To start your return:<\/p><p>1. <a href=\"https:\/\/www.nike.com\/orders\"><strong>Go to your order<\/strong><\/a> and enter your order number and email address, then select “Start Return.” Your order number can be found in any of the order emails we sent.<\/p><p>2. <strong>Select the items to return<\/strong> and provide the return reason.<\/p><p>3. <strong>Submit your return<\/strong> to get the return shipping address. Be sure to note or print the address that we’ll automatically email you.<\/p><p>4. <strong>Send your items back<\/strong> by taking your return to your carrier of choice. Please package your return securely (if possible, use the original packaging). Remove or cover any previous shipping labels and barcodes to avoid shipping delays.<\/p><p><em>Please note, if you made your purchase at another retailer, you must return the purchase to that retailer.<\/em><\/p><h2>FAQs<\/h2><p><strong>Why didn’t I get a receipt or return label with my order?<br\/><\/strong>We’ve gone paperless and removed all paperwork from our shipments to help reduce our environmental impact. You can view your payment details or start a return on your <a href=\"https:\/\/www.nike.com\/orders\">orders page<\/a> on Nike.com or in the Nike App.<\/p><p><strong>What if I can’t print my return shipping label?<br\/><\/strong>Nike Members can get a UPS return QR code to use at a UPS Store (see steps above). If you already created a return, access the UPS return code any time on your <a href=\"https:\/\/www.nike.com\/orders\/details\/\">order details page<\/a> on Nike.com or in the Nike App. Open the order, select \"View Return,\" then \"UPS Dropoff,\" and then select \"Get a QR Code.\"<\/p><p>Guests should work with their preferred carrier for options.<\/p><p><strong>What’s the difference between The UPS Store locations and UPS Drop-off Points?<br\/><\/strong>The UPS Store locations offer full-service shipping support, and certain capabilities like QR code returns without a printed shipping label are only available at these locations. UPS Drop-off Points are an extended network including partner locations, but require return labels to be printed and attached before dropoff.<\/p><p>Tip: When using the <a href=\"https:\/\/www.ups.com\/dropoff?loc=en_US\" target=\"_blank\">UPS location finder<\/a>, filter by location type and select either \"The UPS Store\" or \"UPS Access Point\" to see the nearest locations that fit your needs.<\/p><p><strong>When will I get my refund?<br\/><\/strong>Please see our <a href=\"https:\/\/www.nike.com\/help\/a\/refund-info\">refund information<\/a> for details.<\/p><p><strong>Can I exchange my order?<br\/><\/strong>You can take your Nike order to a <a href=\"https:\/\/www.nike.com\/retail\">nearby Nike store<\/a> for an in-store exchange. If the store doesn’t have what you want, <a href=\"https:\/\/www.nike.com\/help\/#contact\">give us a call<\/a> to set up the exchange.<\/p><p><strong>I placed a Nike order through Instagram—how do I return it?<br\/><\/strong>You can use your Instagram order number and the email address you used to place the order to <a href=\"https:\/\/www.nike.com\/orders\/details\">access your order<\/a>. Then follow the guest return steps above and ship us your return.<\/p><p>You can also return at any Nike store—you’ll just need to have your order number. Please note, Instagram orders will be refunded to a Nike gift card when returned to a store.<\/p><p><strong>How do I return a gift I received?<br\/><\/strong>Just note the order number and take your item to a <a href=\"https:\/\/www.nike.com\/retail\">nearby Nike store<\/a> to do an in-store exchange or get in-store credit. You can also <a href=\"https:\/\/www.nike.com\/help\/#contact\">give us a call<\/a> to return your item and get a refund on a Nike gift card.<\/p><p><strong>How do I return defective or flawed items?<br\/><\/strong>If you have a potentially defective or flawed item, and it’s been less than 60 days since the purchase, just choose a return option above. After 60 days, you’ll need to <a href=\"https:\/\/www.nike.com\/help\/#contact\">contact us<\/a> to return it. Refer to our <a href=\"https:\/\/www.nike.com\/help\/a\/shoe-warranty\">warranty information<\/a> for more details.<\/p><p>*<a href=\"https:\/\/www.nike.com\/help\/a\/return-exceptions\">Some exceptions apply<\/a>. Refer to our <a href=\"https:\/\/www.nike.com\/help\/a\/returns-policy\">return policy<\/a> for more information.<\/p>",
+            "page": ""
+          }
+        },
+        "97e0985e-3bc8-405e-ae79-fcb4eb33a386": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WHERE IS MY REFUND?",
+            "icon": "none",
+            "row_content": "<p>After your return is processed, we’ll email you when the refund is issued to your payment method. Refunds may take up to 10 additional days to be available in your account, depending on your bank’s policies.<\/p><p><strong>Nike gift cards and product vouchers:<\/strong> Funds are typically available within 24 hours of the refund being issued. You can <a href=\"https:\/\/www.nike.com\/orders\/gift-card-lookup\">check your balance online<\/a> at any time.<\/p><p><strong>Klarna: <\/strong>If you paid through Klarna, they will also issue your refund. Please <a href=\"https:\/\/www.klarna.com\/us\/customer-service\/\" target=\"_blank\">contact Klarna directly<\/a> with refund questions.<\/p><h2>FAQs<\/h2><p><strong>How do I check the status of my return?<br\/><\/strong>You can check your return status at <a href=\"https:\/\/www.nike.com\/orders\">nike.com\/orders<\/a>. Nike Members can <a href=\"https:\/\/www.nike.com\/orders\/details\/?showSignin=true\">sign in to access their orders page<\/a>. Guests need to use their order number and email address to <a href=\"https:\/\/www.nike.com\/orders\">access their orders page<\/a>.<\/p><p><strong>How do I check the status of my claim?<br\/><\/strong>Please visit <a href=\"http:\/\/www.nikeclaims.com\/\">nikeclaims.com<\/a> to check the status of your claim.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "3f40b961-cb81-4874-a3ee-e157aa0e9eb8",
+        "caa1dc0c-1f8a-47a9-8ad5-597214f19d31",
+        "97e0985e-3bc8-405e-ae79-fcb4eb33a386"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "RETURNS",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "row",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "83a09f44-beb8-4f5f-97ba-7fb0b0e0ed71",
+    "43a979da-ed26-4128-9ec9-e586d4f75910"
   ]
 }
