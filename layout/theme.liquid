@@ -238,6 +238,8 @@
 
     {% if template contains 'collection' %}
       {{ 'https://cdn.shopify.com/s/files/1/0382/4185/files/ajaxinate.js?937' | script_tag }}
+      <script src="{{ 'nouislider.js' | asset_url }}" defer="defer"></script>
+      <script src="{{ 'slider-price-range.js' | asset_url }}" defer="defer"></script>
     {% endif %}
   </head>
 

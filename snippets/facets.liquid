@@ -344,6 +344,7 @@
                         <span class="field-currency">{{ cart.currency.symbol }}</span>
                         <div class="field">
                           <input
+                            data-field-currency="min"
                             class="field__input"
                             name="{{ filter.min_value.param_name }}"
                             id="Filter-{{ filter.label | escape }}-GTE"
@@ -372,6 +373,7 @@
                         {%- endif -%}
                         <div class="field">
                           <input
+                            data-field-currency="max"
                             class="field__input"
                             name="{{ filter.max_value.param_name }}"
                             id="Filter-{{ filter.label | escape }}-LTE"
@@ -397,6 +399,8 @@
                           </label>
                         </div>
                       </price-range>
+
+                      {% render 'price-range-slider' %}
                     </div>
                   </details>
               {% endcase %}
@@ -777,7 +781,6 @@
                           <p class="mobile-facets__info">
                             {{ 'products.facets.max_price' | t: price: max_price_amount }}
                           </p>
-
                           <price-range class="facets__price">
                             <span class="field-currency">{{ cart.currency.symbol }}</span>
                             <div class="field">
@@ -836,6 +839,7 @@
                               </label>
                             </div>
                           </price-range>
+
                           <div class="no-js-hidden mobile-facets__footer">
                             <facet-remove class="mobile-facets__clear-wrapper">
                               <a href="{{ filter.url_to_remove }}" class="mobile-facets__clear underlined-link">

@@ -1,0 +1,53 @@
+.noUi-target {
+    margin: 0 0 0 4.2rem;
+    width: 80%;
+    background: #7f7f7f;
+    border: none;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.noUi-horizontal {
+    height: 4px;
+}
+
+.noUi-connects {
+    border-radius: 10px;
+}
+
+.noUi-horizontal .noUi-handle {
+    right: -8px;
+}
+
+.noUi-horizontal .noUi-handle {
+    width: 16px;
+    height: 16px;
+    background-color: #111111;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 100%;
+    border: none;
+    top: -6px;
+    cursor: pointer;
+}
+
+.noUi-touch-area {
+    border-radius: 100%;
+}
+
+.noUi-handle {
+    transition: all ease-in .4s;
+}
+
+.noUi-handle:before, .noUi-handle:after {
+    display: none;
+}
+
+a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty .noUi-touch-area {
+    display: inline-block;
+}
+
+a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty .noUi-connect {
+    display: block;
+    background: #111111;
+}
