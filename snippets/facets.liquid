@@ -351,6 +351,7 @@
                             name="{{ filter.min_value.param_name }}"
                             type="number"
                             placeholder="0"
+                            value="0"
                           >
                           <label class="field__label" for="Filter-{{ filter.label | escape }}-GTE">
                             {{- 'products.facets.from' | t -}}
@@ -369,6 +370,12 @@
                               placeholder="{{ filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
                             {%- else -%}
                               placeholder="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
+                            {% endif %}
+
+                            {%- if uses_comma_decimals -%}
+                              value="{{ filter.range_max | money_without_currency | replace: '.', '' | replace: ',', '.' }}"
+                            {%- else -%}
+                              value="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
                             {% endif %}
                           >
                           <label class="field__label" for="Filter-{{ filter.label | escape }}-LTE">
