@@ -19,10 +19,7 @@
                 {% endif %}
             </div>
             <div class="sticky-product__column column">
-                <form class="sticky-product__form-btn" action="/cart/add" method="post">
-                    <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
-                    <button type="submit" class="btn sticky-product__btn">Add to Cart</button>
-                </form>
+                <button type="submit" class="btn sticky-product__btn" data-cart-driwer="trigger">Add to Cart</button>
             </div>
         </div>
     </sticky-product>

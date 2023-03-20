@@ -2,6 +2,7 @@
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'ajaxinate.min.js' | asset_url | script_tag }}
 
 <link
   rel="preload"
@@ -15,6 +16,7 @@
   <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
+
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -185,16 +187,14 @@
   </div>
 </div>
 
+
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var endlessScroll = new Ajaxinate({
-      container: '#product-grid',
-      pagination: '#Huratips-Pagination',
-      loadingText: '<img src="https://cdn.shopify.com/s/files/1/0724/4179/0742/files/loading.gif?v=1678890321">'
-    });
+  const endlessCollection = new Ajaxinate({
+    container: '#product-grid',
+    pagination: '#Huratips-Pagination',
+    loadingText: '<img src="https://cdn.shopify.com/s/files/1/0724/4179/0742/files/loading.gif?v=1678890321">'
   });
 </script>
-
 
 {% schema %}
 {

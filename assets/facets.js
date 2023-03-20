@@ -52,6 +52,7 @@ class FacetFiltersForm extends HTMLElement {
     });
 
     if (updateURLHash) FacetFiltersForm.updateURLHash(searchParams);
+
   }
 
   static renderSectionFromFetch(url, event) {
@@ -87,6 +88,12 @@ class FacetFiltersForm extends HTMLElement {
       containerDesktop.innerHTML = count;
       containerDesktop.classList.remove('loading');
     }
+
+    const endlessCollection = new Ajaxinate({
+      container: '#product-grid',
+      pagination: '#Huratips-Pagination',
+      loadingText: '<img src="https://cdn.shopify.com/s/files/1/0724/4179/0742/files/loading.gif?v=1678890321">'
+    });
   }
 
   static renderFilters(html, event) {
@@ -194,6 +201,7 @@ class FacetFiltersForm extends HTMLElement {
       });
       this.onSubmitForm(forms.join('&'), event)
     }
+
   }
 
   onActiveFilterClick(event) {
