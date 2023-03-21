@@ -1,25 +1,20 @@
-const urlParams = new URLSearchParams(window.location.search);
-const vclid = urlParams.get('vclid');
-
-localStorage.setItem('vclid', vclid);
-
-document.addEventListener('DOMContentLoaded', function() {
+function setPageData() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const vclid = urlParams.get('vclid');
     const orderNotesInput = document.querySelector('#Cart-note');
 
-    // Retrieve vclid from localStorage, or use a default value if it's not present
-    const vclid = localStorage.getItem('vclid') || 'unknown';
+    if (!vclid) {
+        const storedVclid = sessionStorage.getItem('vclid');
 
-    // Write vclid to the order notes input
-    orderNotesInput.value += `VCLID: ${vclid}\n`;
-});
+        if (storedVclid) {
+            orderNotesInput.value = storedVclid;
+        }
+    } else {
+        sessionStorage.setItem('vclid', vclid);
+        orderNotesInput.value = vclid;
+    }
+}
+
+setPageData();
 
 
-window.addEventListener('load', function() {
-    const orderNotesInput = document.querySelector('#Cart-note');
-
-    // Retrieve vclid from localStorage, or use a default value if it's not present
-    const vclid = localStorage.getItem('vclid') || 'unknown';
-
-    // Write vclid to the order notes input
-    orderNotesInput.value += `VCLID: ${vclid}\n`;
-});
