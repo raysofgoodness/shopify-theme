@@ -1,20 +1,25 @@
-function setPageData() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const vclid = urlParams.get('vclid');
-    const orderNotesInput = document.querySelector('#Cart-note');
+class PageData {
+    constructor() {
+        this.orderNotesInput = document.querySelector('#Cart-note');
+        this.urlParams = new URLSearchParams(window.location.search);
+        this.vclid = this.urlParams.get('vclid');
+    }
 
-    if (!vclid) {
-        const storedVclid = sessionStorage.getItem('vclid');
-
-        if (storedVclid) {
-            orderNotesInput.value = storedVclid;
+    setPageData() {
+        if (!this.vclid) {
+            const storedVclid = sessionStorage.getItem('vclid');
+            if (storedVclid) {
+                this.orderNotesInput.value = storedVclid;
+            }
+        } else {
+            sessionStorage.setItem('vclid', this.vclid);
+            this.orderNotesInput.value = this.vclid;
         }
-    } else {
-        sessionStorage.setItem('vclid', vclid);
-        orderNotesInput.value = vclid;
     }
 }
 
-setPageData();
+const pageData = new PageData();
+pageData.setPageData();
+
 
 
