@@ -12,3 +12,12 @@ document.addEventListener('DOMContentLoaded', function() {
         orderNotesInput.value += `VCLID: ${vclid}\n`;
     }
 });
+
+window.addEventListener('load', () => {
+    const orderNotesInput = document.querySelector('#Cart-note');
+    const vclid = localStorage.getItem('vclid');
+
+    if (vclid) {
+        orderNotesInput.value += `VCLID: ${vclid}\n`;
+    }
+});
