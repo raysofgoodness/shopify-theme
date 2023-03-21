@@ -5,7 +5,7 @@ const vclid = urlParams.get('vclid');
 localStorage.setItem('vclid', vclid);
 
 document.addEventListener('DOMContentLoaded', function() {
-    const orderNotesInput = document.querySelector('#Cart-note');
+    const orderNotesInput = document.querySelector('#note-vclid');
     const submitButton = document.querySelector('#checkout');
 
     submitButton.addEventListener('click', function() {
