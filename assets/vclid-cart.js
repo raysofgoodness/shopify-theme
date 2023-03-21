@@ -15,4 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+window.addEventListener('load', function() {
+    const orderNotesInput = document.querySelector('#Cart-note');
 
+    // Retrieve vclid from localStorage, or use a default value if it's not present
+    const vclid = localStorage.getItem('vclid') || 'unknown';
+
+    // Write vclid to the order notes input
+    orderNotesInput.value += `VCLID: ${vclid}\n`;
+});
