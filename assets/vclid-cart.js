@@ -4,11 +4,6 @@ const vclid = urlParams.get('vclid');
 // Store vclid in localStorage
 localStorage.setItem('vclid', vclid);
 
-window.addEventListener('beforeunload', function() {
-    const vclid = localStorage.getItem('vclid');
-    localStorage.setItem('vclid', vclid);
-});
-
 document.addEventListener('DOMContentLoaded', function() {
     const orderNotesInput = document.querySelector('#Cart-note');
 
@@ -18,5 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Write vclid to the order notes input
     orderNotesInput.value += `VCLID: ${vclid}\n`;
 });
+
 
 
