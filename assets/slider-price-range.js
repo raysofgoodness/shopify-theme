@@ -1,7 +1,13 @@
 const rangeSliderInput = document.querySelectorAll("[data-price-range]"),
     priceInput = document.querySelectorAll("[data-price-input]"),
     range = document.querySelector(".slider .progress");
-let priceGap = 1;
+let priceGap = 10;
+
+priceInput[0].value = rangeSliderInput[0].min;
+priceInput[1].value = rangeSliderInput[1].max;
+range.style.left = "0";
+range.style.right = "0";
+
 
 priceInput.forEach(input => {
    input.addEventListener("input", e => {
