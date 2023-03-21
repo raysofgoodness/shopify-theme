@@ -6,7 +6,7 @@ localStorage.setItem('vclid', vclid);
 
 document.addEventListener('DOMContentLoaded', function() {
     const orderNotesInput = document.querySelector('#note-vclid');
-    const submitButton = document.querySelector('form[action="/cart"] button[type="submit"]');
+    const submitButton = document.querySelector('#checkout');
 
     submitButton.addEventListener('click', function() {
         const vclid = localStorage.getItem('vclid');
