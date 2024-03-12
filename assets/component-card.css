@@ -138,9 +138,8 @@
   }
 }
 
-.card__added-btn {
-  margin: 20px 0 0 0;
-  max-width: 180px;
+.card__add {
+  margin: 20px 0;
 }
 
 .card__badge {
@@ -296,11 +295,17 @@
   padding-right: 0;
 }
 
+.card__information {
+  display: flex;
+  flex-direction: column;
+}
+
 .card--card.card--media .card__inner .card__information,
 .card--card.card--text .card__inner,
 .card--card.card--media > .card__content .card__badge {
   display: none;
 }
+
 
 .card--horizontal .card__badge,
 .card--horizontal.card--text .card__inner {
