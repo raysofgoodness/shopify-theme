@@ -138,6 +138,11 @@
   }
 }
 
+.card__added-btn {
+  margin: 20px 0 0 0;
+  max-width: 180px;
+}
+
 .card__badge {
   align-self: flex-end;
   grid-row-start: 3;
